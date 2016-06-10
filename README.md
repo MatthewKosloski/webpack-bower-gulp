@@ -2,7 +2,7 @@
 
 This is a simple boilerplate for static sites, React projects, and using ES6.  It uses Gulp for HTML and CSS compilation, and Webpack for JavaScript minification and bundling.
 
-## Usage
+## Setup
 
 1. Install node modules.
   ```js
@@ -19,17 +19,23 @@ This is a simple boilerplate for static sites, React projects, and using ES6.  I
     $ gulp
   ```
   
-4. Run Webpack to compile JavaScript (in a new tab).
+## Development
+
+1. Start the dev server.
   ```js
-    $ npm run webpack
+    $ npm start
   ```
 
-  ### Using Webpack Developer Server
-    ```js
-      $ npm run dev
-    ```
+## Production
 
-  ### Compiling Production Code
-    ```js
-      $ npm run production
-    ```
+1. Replace JS source in HTML to minified version.
+
+2. Compile HTML and CSS.
+  ```js
+    $ gulp build
+  ```
+
+3. Compile JavaScript with Webpack.
+  ```js
+    $ npm run build
+  ```
