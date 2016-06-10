@@ -21,7 +21,7 @@ This is a simple boilerplate for static sites, React projects, and using ES6.  I
   
 ## Development
 
-1. Start the dev server.
+1. Start webpack-dev-server.
   ```js
     $ npm start
   ```
