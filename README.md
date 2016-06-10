@@ -19,9 +19,7 @@ This is a simple boilerplate for static sites, React projects, and using ES6.  I
     $ gulp
   ```
   
-## Development
-
-1. Start webpack-dev-server.
+4. Run webpack-dev-server.
   ```js
     $ npm start
   ```
