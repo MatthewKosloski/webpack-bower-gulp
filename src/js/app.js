@@ -1,12 +1,9 @@
 import React, {Component} from 'react';
 import {render} from 'react-dom';
+import Foo from './components/Foo';
 
-class App extends Component {
-	render() {
-		return(
-			<p>This is a test React component!</p>
-		);
-	}
-}
+const app = (
+	<Foo />
+);
 
-render(<App/>, document.getElementById('app'));
+render(app, document.getElementById('app'));
