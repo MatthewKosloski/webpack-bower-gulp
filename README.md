@@ -37,3 +37,4 @@ This is a simple boilerplate for static sites, React projects, and using ES6.  I
   ```js
     $ npm run build
   ```
+# react-text-editor
