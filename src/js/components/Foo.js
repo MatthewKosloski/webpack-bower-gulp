@@ -1,30 +1,14 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 
-export default class Foo extends Component {
-
-	constructor() {
-		super();
-		this.state = {
-			text: ''
-		}
-		this.onChange = this.onChange.bind(this);
-	}
-
-	onChange(e) {
-		const text = e.target.value;
-		this.setState({text});
-	}
-
+class Foo extends Component {
 	render() {
-		const {text} = this.state;
-		return(
-			<div>
-				<h1>{this.state.text}</h1>
-				<input 
-					type="text" 
-					value={text} 
-					onChange={this.onChange}/>
+		return (
+			<div className="container">
+				<h1 className="title">Welcome</h1>
+				<p className="body">This is a dummy component for demonstration purposes.</p>
 			</div>
 		);
 	}
 }
+
+export default Foo;

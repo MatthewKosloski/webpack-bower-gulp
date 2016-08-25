@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
 import {render} from 'react-dom';
-import TextEditor from './components/TextEditor';
+import Foo from './components/Foo';
 
 const app = (
-	<TextEditor />
+	<Foo />
 );
 
 render(app, document.getElementById('app'));

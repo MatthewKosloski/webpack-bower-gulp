@@ -15,7 +15,7 @@ const {src, dest} = dirs;
 
 const paths = {
   moveAssets: {
-    src: `./${src}/assets/**/*`,
+    src: './assets/**/*',
     dest: `./${dest}/assets`
   },
   sassToCSS: {
