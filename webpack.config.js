@@ -1,13 +1,12 @@
-var debug = process.env.NODE_ENV !== "production";
-var webpack = require('webpack');
-var path = require('path');
+const debug = process.env.NODE_ENV !== 'production';
+const webpack = require('webpack');
+const path = require('path');
 
-var config = {
+const config = {
 
     dev: {
         devtool: 'cheap-module-eval-source-map',
         entry: [
-            'webpack-hot-middleware/client',
             './src/js/app'
         ],
         output: {
@@ -17,7 +16,6 @@ var config = {
         },
         plugins: [
             new webpack.optimize.OccurrenceOrderPlugin(),
-            new webpack.HotModuleReplacementPlugin()
         ],
         module: {
             loaders: [
@@ -38,7 +36,7 @@ var config = {
         ],
         output: {
             path: path.join(__dirname, 'public/js'),
-            filename: 'bundle-[hash].min.js',
+            filename: 'bundle.min.js',
             publicPath: '/static/js/'
         },
         plugins: [

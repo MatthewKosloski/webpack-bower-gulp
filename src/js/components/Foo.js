@@ -4,7 +4,7 @@ class Foo extends Component {
 	render() {
 		return (
 			<div className="container">
-				<h1 className="title">Welcome</h1>
+				<h1 className="title">Welcome!</h1>
 				<p className="body">This is a dummy component for demonstration purposes.</p>
 			</div>
 		);

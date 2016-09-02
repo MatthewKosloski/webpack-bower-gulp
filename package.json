@@ -32,13 +32,12 @@
     "redux": "^3.5.2",
     "redux-thunk": "^2.1.0",
     "webpack": "^1.13.0",
-    "webpack-dev-middleware": "^1.6.1",
-    "webpack-hot-middleware": "^2.10.0"
+    "webpack-dev-middleware": "^1.6.1"
   },
   "scripts": {
     "test": "mocha --recursive --compilers js:babel-register",
     "test:watch": "mocha --watch --recursive --compilers js:babel-register",
-    "start": "node devServer.js",
+    "start": "node server.js",
     "build": "NODE_ENV=production webpack"
   },
   "author": "",
