@@ -1,4 +1,4 @@
-# webpack-server
+# webpack-bower-gulp
 
 This is a simple boilerplate for static sites, React projects, and using ES6.  It uses Gulp for HTML and CSS compilation, and Webpack for JavaScript minification and bundling.
 
